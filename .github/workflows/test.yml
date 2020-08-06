@@ -16,6 +16,6 @@ jobs:
         with:
           node-version: 10
           registry-url: https://registry.npmjs.org/
-      - run: tyarn
+      - run: cyarn
       - run: yarn test:ci
 
